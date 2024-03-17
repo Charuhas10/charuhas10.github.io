@@ -1,0 +1,34 @@
+.skills {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-title {
+  font-weight: var(--font-weight-reg);
+  margin-bottom: 0.25em;
+}
+
+.skills-subtitle {
+  margin: 0;
+  font-size: var(--font-size-h3);
+  background: #c3acd0;
+  color: #674188;
+  margin-bottom: 1em;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill img {
+  width: 96px;
+  height: 96px;
+}
+
+@media (min-width: 600px) {
+  
+}

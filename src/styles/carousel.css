@@ -1,0 +1,64 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-items {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+}
+
+.carousel-item h3 {
+  margin-top: 16px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.carousel-item:hover {
+  transform: scale(1.05); /* Scale up the item on hover */
+}

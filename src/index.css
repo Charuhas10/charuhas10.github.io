@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.25rem;
+  --font-size-body: 1rem;
+
+  --font-weight-reg: 400;
+  --font-weight-bold: 700;
+
+  --box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.1) 9%,
+    transparent 9%
+  );
+  background-position: 0% 0%;
+  background-size: 12vmin 12vmin;
+  height: 100vh;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transition: opacity 800ms ease, background-size 800ms ease,
+    background-position 800ms ease;
+  width: 100vw;
+  z-index: -1;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --font-size-h1: 4.5rem;
+    --font-size-h2: 3.75rem;
+    --font-size-h3: 1.5rem;
+    --font-size-body: 1.125rem;
+  }
+}
+
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  line-height: 1;
+  margin: 0;
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  line-height: 1;
+  margin: 0;
+  font-size: var(--font-size-h3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* min-width: 320px;
+  min-height: 100vh; */
+}
+
+section {
+  padding: 5em 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.img-link {
+  cursor: pointer;
+}
