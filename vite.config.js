@@ -3,6 +3,8 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/charuhas10.github.io/" : "/",
+  base: "/charuhas10.github.io/",
   plugins: [react()],
 });
+
+// process.env.NODE_ENV === "production" ? "/charuhas10.github.io/" : "/",
