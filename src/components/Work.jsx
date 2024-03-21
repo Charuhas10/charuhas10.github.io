@@ -32,8 +32,9 @@ export default function Work() {
     {
       image: "/plotforge.jpeg",
       title: "PLOTFORGE",
-      description: "Description of Project 3",
-      link: "This is a Web Application that allows users to create interesting Movie plots with a title and an AI generated poster by just simply entering an Outline of the plot by leveraging the OpenAI API. The application is built using ReactJS and Flask Backend.",
+      description:
+        "This is a Web Application that allows users to create interesting Movie plots with a title and an AI generated poster by just simply entering an Outline of the plot by leveraging the OpenAI API. The application is built using ReactJS and Flask Backend.",
+      link: "https://github.com/Charuhas10/PlotForge",
     },
     {
       image: "/etch.jpeg",
