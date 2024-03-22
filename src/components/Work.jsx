@@ -13,13 +13,15 @@ export default function Work() {
     {
       image: "/LMS.jpeg",
       title: "SKILL TREASURY",
-      description: "Description of Project 3",
+      description:
+        "Skill Treasury is an online learning management system that is built using NextJS and MongoDB and hosted on Vercel. It allows users to view different lessons and courses int the fields of Web Development, Data Science, and Machine Learning. The platform also allows users to track their progress and earn certificates upon completion of courses. (Currently under development)",
       link: "https://lms-six-ashy.vercel.app/",
     },
     {
       image: "/moodmap.jpeg",
       title: "MOODMAP",
-      description: "Description of Project 2",
+      description:
+        "MoodMap is a dynamic web application that allows users to track their mood and emotions on a daily basis by writing in our journal. The application is built using NextJS and Supabase, and it offers a user-friendly interface that allows users to view their mood history and leverages OpenAI API to provide them with a daily summary of the mood and also track overall how the mood is of the user via a graph.",
       link: "https://github.com/Charuhas10/MoodMap",
     },
     {
