@@ -16,9 +16,6 @@ const Skills = () => {
           <img src="/icons/java.png"></img>
         </div>
         <div className="skill">
-          <img src="/icons/git.png"></img>
-        </div>
-        <div className="skill">
           <img src="/icons/html.png"></img>
         </div>
         <div className="skill">
@@ -37,10 +34,22 @@ const Skills = () => {
           <img src="/icons/next.png" style={{ width: "auto" }}></img>
         </div>
         <div className="skill">
+          <img src="/icons/git.png"></img>
+        </div>
+        <div className="skill">
           <img src="/icons/mysql.png"></img>
         </div>
         <div className="skill">
           <img src="/icons/mongo.png"></img>
+        </div>
+        <div className="skill">
+          <img src="/icons/prisma.png"></img>
+        </div>
+        <div className="skill">
+          <img src="/icons/postman.png"></img>
+        </div>
+        <div className="skill">
+          <img src="/icons/tailwind.png"></img>
         </div>
       </div>
     </section>
