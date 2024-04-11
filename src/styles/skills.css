@@ -3,6 +3,13 @@
   margin: 0 auto;
 }
 
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .skills-title {
   font-weight: var(--font-weight-reg);
   margin-bottom: 0.25em;
@@ -30,5 +37,4 @@
 }
 
 @media (min-width: 600px) {
-  
 }

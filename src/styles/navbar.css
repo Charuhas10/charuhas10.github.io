@@ -104,8 +104,8 @@ a {
 .nav-open .nav {
   transform: translateX(0);
 }
-/* 
-@media (min-width: 600px) {
+
+/* @media (min-width: 600px) {
   .nav-open .nav {
     transform: translateX(40%);
   }
@@ -126,6 +126,7 @@ a {
 .nav-open .hamburger::after {
   opacity: 0;
 }
+
 .hamburger {
   display: block;
   position: relative;
@@ -134,7 +135,7 @@ a {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background-color: #674188;
+  background-color: #fff;
   width: 2em;
   height: 3px;
   border-radius: 1em;

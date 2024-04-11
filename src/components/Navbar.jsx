@@ -10,11 +10,13 @@ export default function Navbar() {
     const toggleNav = () => {
       document.body.classList.toggle("nav-open");
     };
+
     navToggle.addEventListener("click", toggleNav);
 
     const removeNavOpen = () => {
       document.body.classList.remove("nav-open");
     };
+
     navLinks.forEach((link) => {
       link.addEventListener("click", removeNavOpen);
     });
@@ -41,7 +43,7 @@ export default function Navbar() {
     <header>
       <div className="logo">
         <a href="#home" className="img-link">
-          <img src="assets/logo.png" alt="" />
+          <img src="logo.png" alt="" />
         </a>
         <button className="nav-toggle" aria-label="toggle navigation">
           <span className="hamburger"></span>
