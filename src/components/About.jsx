@@ -12,7 +12,8 @@ export default function About() {
           <p>
             Hey, I am Charuhas Reddy Balam, a Full-Stack Developer building
             fast, responsive and beautiful Applications. As a self-motivated
-            individual, I like embracing fresh challenges and learn new stuff
+            individual, I like embracing fresh challenges and learn new stuff.
+            I am currently working as a Software Developer at Myntra, and work with React Native and GoLang.
           </p>
           <p>
             When I'm not coding, you'll often find me on the tennis court,
