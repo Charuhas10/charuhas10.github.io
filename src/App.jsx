@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Press from "./components/Press";
 import ResumeSection from "./components/ResumeSection";
 import Skills from "./components/Skills";
-import TextBreakout from "./components/TextBreakout";
 import Work from "./components/Work";
 
 export default function App() {
@@ -19,7 +18,6 @@ export default function App() {
       <Press />
       <Skills />
       <Work />
-      <TextBreakout />
       <ResumeSection />
       <Footer />
     </div>

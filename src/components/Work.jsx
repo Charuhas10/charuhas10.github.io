@@ -56,7 +56,7 @@ export default function Work() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
+          viewport={{ once: false, margin: "-80px" }}
           transition={{ duration: 0.6 }}
         >
           <span className="section-tag">Projects</span>
@@ -72,7 +72,7 @@ export default function Work() {
           }}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-60px" }}
+          viewport={{ once: false, margin: "-60px" }}
         >
           {projects.map((p) => (
             <motion.div key={p.title} className="project-card" variants={cardVariant}>

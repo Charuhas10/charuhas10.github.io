@@ -115,8 +115,22 @@
   font-weight: 600;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ultra-wide: cap card width so they don't stretch uncomfortably */
+@media (min-width: 1600px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1400px;
   }
 }

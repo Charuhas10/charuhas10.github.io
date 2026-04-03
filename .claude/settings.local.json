@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.cssdesignawards.com)",
+      "WebFetch(domain:www.pretext.cool)",
+      "WebFetch(domain:chenglou.me)",
+      "WebFetch(domain:oryzo.ai)",
+      "WebFetch(domain:pretextjs.dev)",
+      "WebFetch(domain:simonwillison.net)",
+      "WebFetch(domain:deepwiki.com)",
+      "WebFetch(domain:reidburke.com)",
+      "WebFetch(domain:www.awwwards.com)",
+      "WebFetch(domain:www.seesaw.website)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:news.ycombinator.com)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install:*)",
+      "Bash(ls \"D:\\\\Projects\\\\portfolio-2\\\\node_modules\\\\@chenglou\\\\pretext\"\" 2>/dev/null || echo \"not found \")",
+      "Bash(npm run:*)",
+      "Bash(npm list:*)"
+    ]
+  }
+}

@@ -1,18 +1,35 @@
+/* ── About section ───────────────────────────────────────────── */
 .about-me {
   color: var(--text-primary);
 }
 
+/* Two-column layout: text left, game right */
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+/* ── Left: text ─────────────────────────────────────────────── */
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-title {
+  /* Same visual weight as Experience heading */
+  font-size: var(--font-size-h1);
   font-weight: 700;
-  margin-bottom: 32px;
+  line-height: 1.05;
+  margin-bottom: 28px;
   color: var(--text-primary);
 }
 
 .about-me-body {
-  max-width: 640px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
 .about-me-body p {
@@ -20,4 +37,76 @@
   color: rgba(255, 250, 233, 0.75);
   font-size: 1.05rem;
   line-height: 1.75;
+}
+
+/* ── Right: game ─────────────────────────────────────────────── */
+.about-game-wrap {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.018);
+  /* cursor managed by JS: none during play, pointer/default on overlays */
+}
+
+.about-canvas {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.about-game-hint {
+  position: absolute;
+  bottom: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0.6;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+
+/* Ultra-wide (2560px+): keep columns proportional */
+@media (min-width: 1600px) {
+  .about-layout {
+    gap: 72px;
+  }
+  .about-canvas {
+    height: 460px;
+  }
+}
+
+/* Tablet: stack vertically */
+@media (max-width: 860px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .about-canvas {
+    height: 340px;
+  }
+}
+
+/* Mobile: compact */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about-me-body p {
+    font-size: 0.95rem;
+    gap: 14px;
+  }
+  .about-canvas {
+    height: 280px;
+  }
+  .about-game-hint {
+    font-size: 0.5rem;
+  }
 }

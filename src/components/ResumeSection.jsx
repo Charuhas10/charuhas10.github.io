@@ -16,7 +16,7 @@ export default function ResumeSection() {
           className="resume-inner"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
+          viewport={{ once: false, margin: "-80px" }}
           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
         >
           <div className="resume-highlights">
@@ -26,7 +26,7 @@ export default function ResumeSection() {
                 className="resume-highlight-line"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: false }}
                 transition={{ delay: i * 0.08, duration: 0.5 }}
               >
                 <span className="resume-dash">—</span>

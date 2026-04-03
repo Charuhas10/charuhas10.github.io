@@ -3,8 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div>
-      <footer className="footer" id="contact">
+    <footer className="footer" id="contact">
         <a href="mailto:charuhasreddybalam@gmail.com" className="mail-link">
           charuhasreddybalam@gmail.com
         </a>
@@ -42,6 +41,5 @@ export default function Footer() {
         </ul>
         <p className="copyright">© Charuhas Reddy Balam</p>
       </footer>
-    </div>
   );
 }
