@@ -1,0 +1,75 @@
+.press {
+  background: transparent;
+}
+
+.press-heading {
+  color: var(--text-primary);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.press-description {
+  color: rgba(255, 250, 233, 0.65);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 0 52px;
+  line-height: 1.7;
+}
+
+.press-highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.press-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.press-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px 24px;
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease,
+    transform 0.2s ease;
+  cursor: pointer;
+}
+
+.press-card:hover {
+  border-color: var(--accent-border);
+  background: var(--surface-hover);
+  transform: translateY(-3px);
+}
+
+.press-publication {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.press-excerpt {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex: 1;
+  opacity: 0.88;
+}
+
+.press-read {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.press-card:hover .press-read {
+  color: var(--accent);
+}

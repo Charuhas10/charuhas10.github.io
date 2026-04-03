@@ -1,5 +1,15 @@
 .my-work {
-  color: #fffae9;
-  text-align: center;
+  color: var(--text-primary);
 }
 
+.work-heading {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.work-sub {
+  margin: 0 0 48px;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
