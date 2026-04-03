@@ -177,7 +177,6 @@ export default function Hero() {
         View My Work ↓
       </motion.a>
 
-      <img src="/p3.jpg" alt="Charuhas Reddy Balam" className="hero-photo" />
     </section>
   );
 }

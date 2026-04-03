@@ -9,6 +9,8 @@
   margin: 0 auto;
   gap: 0;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-canvas-wrap {
@@ -61,26 +63,8 @@
   border-color: var(--accent);
 }
 
-.hero-photo {
-  position: absolute;
-  right: 48px;
-  bottom: 60px;
-  width: clamp(120px, 18vw, 220px);
-  border-radius: 50%;
-  border: 3px solid var(--accent-border);
-  opacity: 0.9;
-  filter: grayscale(15%);
-}
-
 @media (max-width: 600px) {
   .hero {
-    padding: 80px 24px 140px;
-  }
-
-  .hero-photo {
-    right: 24px;
-    bottom: 24px;
-    width: 90px;
-    opacity: 0.7;
+    padding: 80px 24px 60px;
   }
 }

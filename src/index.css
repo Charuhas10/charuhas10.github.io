@@ -135,4 +135,22 @@ header {
 .section-inner {
   max-width: 1100px;
   margin: 0 auto;
+  width: 100%;
+}
+
+/* Large screens — cap content width and boost font slightly */
+@media (min-width: 1600px) {
+  section {
+    padding-left: max(24px, calc((100vw - 1100px) / 2));
+    padding-right: max(24px, calc((100vw - 1100px) / 2));
+  }
+}
+
+@media (min-width: 2000px) {
+  :root {
+    --font-size-h1: 5.5rem;
+    --font-size-h2: 4.5rem;
+    --font-size-h3: 1.75rem;
+    --font-size-body: 1.2rem;
+  }
 }

@@ -1,0 +1,79 @@
+.breakout-section {
+  overflow: hidden;
+}
+
+.breakout-header {
+  margin-bottom: 32px;
+}
+
+.breakout-heading {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.breakout-desc {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  max-width: 480px;
+}
+
+.breakout-wrap {
+  position: relative;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: none;
+}
+
+.breakout-canvas {
+  display: block;
+  width: 100%;
+  height: 420px;
+}
+
+.breakout-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(14, 14, 14, 0.75);
+  backdrop-filter: blur(4px);
+}
+
+.breakout-result {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.breakout-win {
+  color: var(--accent);
+}
+
+.breakout-lose {
+  color: rgba(255, 250, 233, 0.7);
+}
+
+.breakout-btn {
+  padding: 12px 32px;
+  background: transparent;
+  border: 1px solid var(--accent-border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.breakout-btn:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
