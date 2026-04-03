@@ -56,18 +56,7 @@
 }
 
 .about-game-hint {
-  position: absolute;
-  bottom: 7px;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  pointer-events: none;
-  white-space: nowrap;
-  opacity: 0.6;
+  display: none;
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */
